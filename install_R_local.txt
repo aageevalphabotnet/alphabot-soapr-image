@@ -1,0 +1,19 @@
+sudo R CMD javareconf 
+sudo R -e 'install.packages("rJava", .libPaths()[1], "https://cloud.r-project.org/")' --no-save
+
+sudo R -e  'install.packages("quadprogXT", .libPaths()[1], "https://cloud.r-project.org/")' --no-save
+sudo R -e  'install.packages("DBI", .libPaths()[1], "https://cloud.r-project.org/")' --no-save
+sudo R -e  'install.packages("PerformanceAnalytics", .libPaths()[1], "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("quadprog", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("RPostgreSQL", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("Rserve", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("jsonlite", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("bitops", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("RCurl", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("curl", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("Rcpp", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("plyr", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("xml2", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("rvest", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("rdrop2", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
+sudo R -e 'install.packages("rio", .libPaths()[1], repos = "https://cloud.r-project.org/")' --no-save
