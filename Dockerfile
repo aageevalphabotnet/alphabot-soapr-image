@@ -99,7 +99,7 @@ RUN yum install bind-utils -y
 COPY Rserv.conf /etc/
 COPY setenv.sh /usr/local/tomcat9/bin/
 COPY tomcat-users.xml /usr/local/tomcat9/conf/
-#COPY server.xml /usr/local/tomcat9/conf/
+COPY server.xml /usr/local/tomcat9/conf/
 
 RUN chmod 744 /etc/Rserv.conf
 
